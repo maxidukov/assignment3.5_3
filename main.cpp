@@ -21,6 +21,7 @@ public:
     set_name("Фигура");
   }
   Base(){
+      params = nullptr;
       set_sidenum(0);
     set_name("Фигура");
   }
