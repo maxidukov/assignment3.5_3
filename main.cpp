@@ -70,7 +70,9 @@ public:
     }
     std::cout << std::endl << std::endl;
   }
-
+  ~Base(){
+    delete [] params;
+  }
 };
 
 class Triangle : public Base {
